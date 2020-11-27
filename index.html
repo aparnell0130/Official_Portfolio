@@ -32,9 +32,9 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-                            href="#portfolio">Portfolio</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
                             href="#about">About</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                            href="#portfolio">Portfolio</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
                             href="#contact">Contact</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
@@ -51,7 +51,7 @@
             <p class="masthead-subheading font-weight-light mb-3">Aaron Parnell - Web Developer</p>
 
             <!-- Masthead Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-white m-0">About Me</h2>
+            <h2 id="about" class="page-section-heading text-center text-uppercase text-white m-0">About Me</h2>
             <div class="divider-custom divider-light">
                 <div class="divider-custom-line"></div>
                 <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
@@ -129,11 +129,9 @@
                         <img class="img-fluid" src="assets/img/weather.gif" alt="" />
                     </div>
                 </div>
-
-
     </section>
     <!-- Footer-->
-    <footer class="footer text-center">
+    <footer id="contact" class="footer text-center mt-5">
         <div class="container">
             <!-- Contact Section Heading-->
             <h2 class="page-section-heading text-center text-uppercase text-white m-0">Contact Me</h2>
@@ -167,10 +165,10 @@
                 </div>
                 <!-- Footer About Text-->
                 <div class="col-lg-4">
-                    <h4 class="text-uppercase mb-4">About Freelancer</h4>
+                    <h4 class="text-uppercase mb-4"></h4>
                     <p class="lead mb-0">
-                        Freelance is a free to use, MIT licensed Bootstrap theme created by
-                        <a href="http://startbootstrap.com">Start Bootstrap</a>
+
+
                     </p>
                 </div>
             </div>
@@ -178,7 +176,12 @@
     </footer>
     <!-- Copyright Section-->
     <div class="copyright py-4 text-center text-white">
-        <div class="container"><small>Copyright © Your Website 2020</small></div>
+        <div class="container"><small>Built With Freelancer
+                <p class="mb-0">
+                    Freelance is a free to use, MIT licensed Bootstrap theme created by
+                    <a href="http://startbootstrap.com" target="_blank">Start Bootstrap</a>
+                </p>
+            </small></div>
     </div>
     <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
     <div class="scroll-to-top d-lg-none position-fixed">
@@ -214,8 +217,9 @@
                                 </a>
                                 <!-- Portfolio Modal - Text-->
                                 <p class="mb-5">
-                                    <a href="https://github.com/epowelldev/p01-on-this-day-in-space" target="_blank">
-                                        Github
+                                    <a class="btn btn-outline-info mt-3 btn-social mx-1"
+                                        href="https://github.com/epowelldev/p01-on-this-day-in-space" target="_blank">
+                                        <i class="fab fa-fw fa-github"></i>
                                     </a>
                                 </p>
                                 <button class="btn btn-primary" data-dismiss="modal">
@@ -257,7 +261,17 @@
                                 </a>
                                 <!-- Portfolio Modal - Text-->
                                 <p class="mb-5">
-                                    <a href="https://github.com/aparnell0130/Code_Quizzer" target="_blank">Github</a>
+                                    This application is a quiz about coding. Once you click start, the timer will start
+                                    and you will be provided a random question with a list of options. If you select the
+                                    right answer you will move to the next question. If you select the wrong answer, the
+                                    game will subtract 10 seconds from the timer, then you will move to the next
+                                    question. If you reach the end of the questions or the time runs out, the game will
+                                    end and your score will be the time left. You will then move to the high scores
+                                    screen, where you will be able to enter your initial and save your score.
+                                    <br>
+                                    <a class="btn btn-outline-info mt-3 btn-social mx-1"
+                                        href="https://github.com/aparnell0130/Code_Quizzer" target="_blank"><i
+                                            class="fab fa-fw fa-github"></i></a>
                                 </p>
                                 <button class="btn btn-primary" data-dismiss="modal">
                                     <i class="fas fa-times fa-fw"></i>
@@ -297,7 +311,12 @@
                                 </a>
                                 <!-- Portfolio Modal - Text-->
                                 <p class="mb-5">
-                                    <a href="https://github.com/aparnell0130/Daily_Scheduler" target="_blank">Github</a>
+                                    This application will allow you to store your daily tasks, between the hours of 9am
+                                    to 5pm, as needed. It is designed for traditional American business hours.
+                                    <br>
+                                    <a class="btn btn-outline-info mt-3 btn-social mx-1"
+                                        href="https://github.com/aparnell0130/Daily_Scheduler" target="_blank"><i
+                                            class="fab fa-fw fa-github"></i></a>
                                 </p>
                                 <button class="btn btn-primary" data-dismiss="modal">
                                     <i class="fas fa-times fa-fw"></i>
@@ -337,7 +356,12 @@
                                 </a>
                                 <!-- Portfolio Modal - Text-->
                                 <p class="mb-5">
-                                    <a href="https://github.com/aparnell0130/Weather_App" target="_blank">Github</a>
+                                    This application will allow you to search the weather for over 200,000 cities. You
+                                    will get the current weather and a five day forecast.
+                                    <br>
+                                    <a class="btn btn-outline-info mt-3 btn-social mx-1"
+                                        href="https://github.com/aparnell0130/Weather_App" target="_blank"><i
+                                            class="fab fa-fw fa-github"></i></a>
                                 </p>
                                 <button class="btn btn-primary" data-dismiss="modal">
                                     <i class="fas fa-times fa-fw"></i>
