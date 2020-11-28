@@ -24,8 +24,8 @@ $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
     });
 
 ```
-## Live game link
-- [Weather App](https://aparnell0130.github.io/Official_Portfolio/)
+## Live Link
+- [Portfolio](https://aparnell0130.github.io/Official_Portfolio/)
 
 ![ALT Text](assets/img/profDemo.gif)
 ## Author Info
